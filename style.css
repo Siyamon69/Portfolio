@@ -1,5 +1,6 @@
 body{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -11,6 +12,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     width: 50%;
@@ -23,11 +25,20 @@ section{
 body{
     background-color: rgb(247, 244, 242);
 }
-#hire-button{
+#button{
 text-decoration: none;
 padding: 10px 40px;
 background-image:linear-gradient(red, orange)  ;
 border-radius: 10px;
 font-size: 700;
 color: aliceblue;
+}
+.top-O{
+background-image: url(top-banner.png);
+background-repeat: no-repeat ;
+}
+.cyber{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
